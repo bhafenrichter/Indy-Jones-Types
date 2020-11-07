@@ -34,7 +34,7 @@ export interface ISite {
   bannerUrl: string;
   name: string;
   description: string;
-  type: string;
+  types: Array<string>;
   content: string;
   interests: Array<string>;
   coordinates: ICoordinate;
