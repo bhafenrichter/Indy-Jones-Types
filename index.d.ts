@@ -45,6 +45,7 @@ export interface ISite {
   placeid: string;
   rating: number;
   reviewCount: number;
+  openingHours: Array<string>;
 }
 
 
