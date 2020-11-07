@@ -77,3 +77,33 @@ export interface ISiteModel {
   otherImgs: Array<string>;
   content: Array<any>;
 }
+
+export type IPlace = {
+  coordinates: ICoordinate,
+  photos: Array<string>,
+  name: string,
+  address: string,
+  reviews: Array<IReview>,
+  website: string,
+  id: string,
+}
+
+type ICoordinate = {
+  lat: number,
+  lng: number,
+}
+
+// type IAddress = {
+//   address1: string,
+//   postalCode: string,
+//   city: string,
+//   state: string,
+//   country: string,
+// }
+
+type IReview = {
+  rating: number,
+  description: string,
+  author: string,
+  authorImg: string,
+}
