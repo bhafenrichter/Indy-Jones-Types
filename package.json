@@ -1,5 +1,5 @@
 {
-  "name": "types/Indy",
+  "name": "@types/indy-jones",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
