@@ -43,6 +43,7 @@ export interface ISite {
   address: string;
   website: string;
   placeid: string;
+  reviewCount: number;
 }
 
 
@@ -101,4 +102,5 @@ type IReview = {
   description: string,
   author: string,
   authorImg: string,
+  time: string,
 }
