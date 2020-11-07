@@ -36,10 +36,15 @@ export interface ISite {
   description: string;
   type: string;
   content: string;
-  lat: number;
-  lng: number;
   interests: Array<string>;
+  coordinates: ICoordinate;
+  photos: Array<string>;
+  reviews: Array<IReview>;
+  address: string;
+  website: string;
+  placeid: string;
 }
+
 
 export interface IFilter {
   interest: IInterest;
@@ -76,16 +81,6 @@ export interface ISiteModel {
   bannerImg: string;
   otherImgs: Array<string>;
   content: Array<any>;
-}
-
-export type IPlace = {
-  coordinates: ICoordinate,
-  photos: Array<string>,
-  name: string,
-  address: string,
-  reviews: Array<IReview>,
-  website: string,
-  id: string,
 }
 
 type ICoordinate = {
