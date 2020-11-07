@@ -31,7 +31,7 @@ export interface ITourGroup {
 
 export interface ISite {
   id: string | number;
-  url: string;
+  bannerUrl: string;
   name: string;
   description: string;
   type: string;
