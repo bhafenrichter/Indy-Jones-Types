@@ -43,6 +43,7 @@ export interface ISite {
   address: string;
   website: string;
   placeid: string;
+  rating: number;
   reviewCount: number;
 }
 
